@@ -83,7 +83,7 @@ export default function WorkshopLeader(){
 	useEffect(() => {
 		const getWorkshops = async () => {
 			try {
-				const response = await fetch('http://localhost:3001/workshops');
+				const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_IP}/workshops/`);
 				setWorkshops(await response.json());
 			} catch (error) {
 				console.error('Erro ao buscar workshops:', error);
