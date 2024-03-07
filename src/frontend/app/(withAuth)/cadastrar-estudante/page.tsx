@@ -38,8 +38,9 @@ export default function RegisterStudent() {
         </BackButtonCustom>
         <IntialStructureForm
           title='Preencha as informações abaixo para cadastrar um(a) novo(a) aluno(a)!'
-          children={<FormStudentRegister entity='aluno' url='students'/>}
-        />
+        >
+          <FormStudentRegister entity='aluno' url='students'/>
+        </IntialStructureForm>
       </>
     );
   } else {

@@ -19,7 +19,7 @@ const DivGeneral = styled.div`
 `;
 
 // Esta página "login" é responsável por renderizar o formulário de login
-export default function login() {
+export default function Login() {
 
     // Armazenamento do estado de carregamento
     const [loading, setLoading] = useState(false)

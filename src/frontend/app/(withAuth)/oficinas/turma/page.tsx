@@ -174,7 +174,7 @@ const SpacerDiv = styled.div`
 `;
 
 // Esta página "Workshop" é responsável por renderizar a página de uma oficina
-export default function workshop() {
+export default function Workshop() {
 
 	// Armazenamento do estado de carregamento e presenças
 	const [loading, setLoading] = useState(false);

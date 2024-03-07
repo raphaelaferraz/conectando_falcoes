@@ -38,8 +38,9 @@ export default function RegisterTeacher() {
         </BackButtonCustom>
         <InitialStructureForm
           title='Preencha as informações abaixo para cadastrar um(a) novo(a) professor(a)!'
-          children={<FormRegister entity='professor' url='teachers' />}
-        />
+        >
+          <FormRegister entity='professor' url='teachers' />
+        </InitialStructureForm>
       </>
     );
   } else {

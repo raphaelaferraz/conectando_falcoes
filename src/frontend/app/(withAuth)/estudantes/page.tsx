@@ -29,7 +29,7 @@ const Title = styled.h1`
 	margin-bottom: 2rem;
 `;
 
-export const Span = styled(Title)`
+const Span = styled(Title)`
   font-weight: 600;
 	display: inline;
 `;
@@ -137,7 +137,7 @@ const RegisterButton = styled(CustomButton)`
 
 
 // Esta página "workshops" listará todas as oficinas dentro de uma ONG específica, que ja foi selecionada pelo usuário.
-export default function workshops() {
+export default function Workshops() {
 
 	// Armazenamento dos estados de carregamento, data e presenças
 	const [loading, setLoading] = useState(false);

@@ -12,7 +12,7 @@ import { useEffect, useState } from 'react';
 
 
 // Esta página "workshops" listará todas as oficinas dentro de uma ONG específica, que ja foi selecionada pelo usuário.
-export default function workshops() {
+export default function Workshops() {
 
 	// Variável que armazena a sessão do usuário
 	const { data: session } = useSession();
